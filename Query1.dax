@@ -1,0 +1,76 @@
+﻿'DateTableTemplate_ccb1627b-4980-4203-9402-0764cc769f70'
+// ERR query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+Invalid query syntax. A valid MDX or DAX query was expected.
+
+Query Text:
+<ccon>'DateTableTemplate_ccb1627b-4980-4203-9402-0764cc769f70'</ccon>
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE SAMPLE(10, ALL('DateTableTemplate_ccb1627b-4980-4203-9402-0764cc769f70'[NroMes]), 1) ORDER BY 'DateTableTemplate_ccb1627b-4980-4203-9402-0764cc769f70'[NroMes]
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE ROW("Min", MIN('DateTableTemplate_ccb1627b-4980-4203-9402-0764cc769f70'[NroMes]),"Max", MAX('DateTableTemplate_ccb1627b-4980-4203-9402-0764cc769f70'[NroMes]), "DistinctCount", DISTINCTCOUNT('DateTableTemplate_ccb1627b-4980-4203-9402-0764cc769f70'[NroMes]) )
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE ROW("Min", MIN('LocalDateTable_e5fd3811-f00b-45f7-9529-eeaebe797ca4'[Día]),"Max", MAX('LocalDateTable_e5fd3811-f00b-45f7-9529-eeaebe797ca4'[Día]), "DistinctCount", DISTINCTCOUNT('LocalDateTable_e5fd3811-f00b-45f7-9529-eeaebe797ca4'[Día]) )
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE SAMPLE(10, ALL('LocalDateTable_e5fd3811-f00b-45f7-9529-eeaebe797ca4'[Día]), 1) ORDER BY 'LocalDateTable_e5fd3811-f00b-45f7-9529-eeaebe797ca4'[Día]
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE ROW("RowCount", COUNTROWS('LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea') )
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE ROW("Min", FIRSTNONBLANK('LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Mes],1),"Max", LASTNONBLANK('LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Mes],1), "DistinctCount", COUNTROWS(DISTINCT('LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Mes])) )
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE SAMPLE(10, ALL('LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Mes]), 1) ORDER BY 'LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Mes]
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE ROW("Min", MIN('LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Día]),"Max", MAX('LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Día]), "DistinctCount", DISTINCTCOUNT('LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Día]) )
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE SAMPLE(10, ALL('LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Día]), 1) ORDER BY 'LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Día]
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE SAMPLE(10, ALL('LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Año]), 1) ORDER BY 'LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Año]
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE ROW("Min", MIN('LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Año]),"Max", MAX('LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Año]), "DistinctCount", DISTINCTCOUNT('LocalDateTable_9e8f512b-c9b4-4f97-a958-19012f3e82ea'[Año]) )
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE ROW("Min", FIRSTNONBLANK(cdmxfinal[DIABETES],1),"Max", LASTNONBLANK(cdmxfinal[DIABETES],1), "DistinctCount", COUNTROWS(DISTINCT(cdmxfinal[DIABETES])) )
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE SAMPLE(10, ALL(cdmxfinal[DIABETES]), 1) ORDER BY cdmxfinal[DIABETES]
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE ROW("Min", FIRSTNONBLANK(cdmxfinal[OBESIDAD],1),"Max", LASTNONBLANK(cdmxfinal[OBESIDAD],1), "DistinctCount", COUNTROWS(DISTINCT(cdmxfinal[OBESIDAD])) )
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE SAMPLE(10, ALL(cdmxfinal[OBESIDAD]), 1) ORDER BY cdmxfinal[OBESIDAD]
+
+// ERR query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+Invalid query syntax. A valid MDX or DAX query was expected.
+
+Query Text:
+<ccon>
+'LocalDateTable_e5fd3811-f00b-45f7-9529-eeaebe797ca4'</ccon>
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE SAMPLE(10, ALL('DateTableTemplate_ccb1627b-4980-4203-9402-0764cc769f70'[NroTrimestre]), 1) ORDER BY 'DateTableTemplate_ccb1627b-4980-4203-9402-0764cc769f70'[NroTrimestre]
+
+// DAX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+EVALUATE ROW("Min", MIN('DateTableTemplate_ccb1627b-4980-4203-9402-0764cc769f70'[NroTrimestre]),"Max", MAX('DateTableTemplate_ccb1627b-4980-4203-9402-0764cc769f70'[NroTrimestre]), "DistinctCount", DISTINCTCOUNT('DateTableTemplate_ccb1627b-4980-4203-9402-0764cc769f70'[NroTrimestre]) )
+
+// ERR query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+Query (1, 47) The syntax for '*' is incorrect. (select * from $SYSTEM.DBSCHEMA_CATALOGSselect * from $SYSTEM.DBSCHEMA_CATALOGS
+cdmxfinal[INMUSUPR]).
+
+Query Text:
+<ccon>select * from $SYSTEM.DBSCHEMA_CATALOGSselect * from $SYSTEM.DBSCHEMA_CATALOGS
+cdmxfinal[INMUSUPR]</ccon>
+
+// DMX query against Database: e18068b3-7ec7-4be2-b588-aadb1f2e884d 
+select * from $SYSTEM.DBSCHEMA_CATALOGS
+
